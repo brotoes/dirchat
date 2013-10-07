@@ -15,8 +15,12 @@
 #include <unistd.h>
 #include "dirchat.h"
 
-int main(int argc, char * argv[]) {
-  struct
+int main(int argc, char** argv) {
+  struct sockaddr_in in, out;
+  int sid;
+  int port;
+
+  
 
   return 0;
 }
