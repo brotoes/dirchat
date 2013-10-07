@@ -40,7 +40,8 @@ struct peers getpeers() {
 
     if (peers.num_peers == peerlist_size) {
       peerlist_size = 2*peerlist_size;
-      peers.peerlist = realloc(peers.peerlist, peerlist_size*sizeof(currpeer));
+      peers.peerlist = realloc(peers.peerlist, 
+			       peerlist_size*sizeof(struct peer));
     }
     
     peers.num_peers++;

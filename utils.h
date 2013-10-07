@@ -1,4 +1,5 @@
-#ifndef
+#ifndef UTILS_H
+#define UTILS_H
 
 struct peer {
   char* name;
