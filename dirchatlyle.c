@@ -14,6 +14,7 @@
 #include <string.h>
 #include <unistd.h>
 #include "dirchat.h"
+#include "utils.h"
 
 int main(int argc, char** argv) {
   struct sockaddr_in in, out;
